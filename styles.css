@@ -1,0 +1,108 @@
+body {
+    background-color: #0F172A;
+    border-color: aqua;
+}
+
+h1{
+    color: rgb(206, 216, 237);
+}
+h2{
+    color: rgb(206, 216, 237);
+}
+h4{
+    color:rgb(92,230,212);
+}
+
+p{
+    color: rgb(206, 216, 237,0.8);
+    font-size: 1.25rem;
+}
+.navbar-nav li a{
+    color: rgb(206, 216, 237);
+    border-bottom: 10px;
+}
+
+.navbar{
+    border-color: rgb(92,230,212) !important;
+}
+
+.first-row{
+    color: rgb(92,230,212) !important;
+    margin-top: 2rem;
+}
+
+.summary{
+    margin-top: 3rem;
+}
+
+.btn{
+    border-color:  rgb(92,230,212) !important;
+    color:  rgb(92,230,212) !important;
+}
+
+
+.line{
+    background-color:  rgb(92,230,212) !important ;
+    width :2px;
+    display: block;
+    height: 60vh;
+    margin-top: 12vh;
+    
+    
+}
+
+.bullet{
+    width: 10px; 
+    height: 10px; 
+    background-color: rgb(92,230,212);
+    position: absolute; 
+    left: -4px; 
+   
+
+}
+
+.time-text .bullet-text:nth-child(1) { top: 10%; }
+.time-text .bullet-text:nth-child(2) { top: 40%; }
+.time-text .bullet-text:nth-child(3) { top: 70%; }
+
+.bullet-text{
+    color:rgb(206, 216, 237,0.8);
+    position: absolute; 
+    left: -4px; 
+    top: -4px;
+   
+
+}
+
+.line .bullet:nth-child(1) { top: 10%; }
+.line .bullet:nth-child(2) { top: 40%; }
+.line .bullet:nth-child(3) { top: 70%; }
+
+.time-text{
+
+    height: 60vh;
+    margin-top: 12vh;
+    position: relative;
+}
+
+
+.contact-info p {
+    color: rgb(206, 216, 237, 0.8);
+    font-size: 1.25rem;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: rgb(92,230,212);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+li :hover{
+
+    color:  rgb(92,230,212) !important;
+
+}
